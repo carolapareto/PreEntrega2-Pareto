@@ -4,12 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pre entrega 1</title>
+    <title>Tienda de productos</title>
 
 
     <script defer src="./js/script.js"></script>
 </head>
 <body>
-    <h1>Pre entrega 1</h1>
+    <h1>Tienda de productos</h1>
+    <label for="nombre">Producto:</label>
+    <select id="nombre">
+        <option value="Mat">Mat</option>
+        <option value="Bolster">Bolster</option>
+        <option value="Zafu">Zafu</option>
+        <option value="Bloque">Bloque</option>
+    </select>
+    <br><br>
+    <label for="cantidad">Cantidad</label>
+    <input type="number" id="cantidad" value="1">
+    <br><br>
+    <button id="agregar">Agregar al carrito</button>
+    <button id="ver">Ver carrito</button>
+    <button id="vaciar">Vaciar carrito</button>
+    <p id="mensaje"></p>
+    <ul id="carrito"></ul>
+    <p id="total">Total: $0.00</p>
+
+    
 </body>
 </html>
