@@ -1,0 +1,25 @@
+{
+    "productos": [
+      {
+        "nombre": "Mat",
+        "precio": 3500,
+        "imagen": "../img/mat1.jpeg"
+      },
+      {
+        "nombre": "Bolster",
+        "precio": 4000,
+        "imagen": "../img/bolster.jpeg"
+      },
+      {
+        "nombre": "Zafu",
+        "precio": 4500,
+        "imagen": "../img/zafu.jpeg"
+      },
+      {
+        "nombre": "Bloque",
+        "precio": 1500,
+        "imagen": "../img/bloque.jpeg"
+      }
+    ]
+  }
+  
